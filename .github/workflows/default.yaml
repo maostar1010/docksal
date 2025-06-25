@@ -1,8 +1,8 @@
 name: Default
 
 on:
-  schedule:
-    - cron: '0 10 * * 0' # Every Sunday at 10AM
+  # schedule:
+  #   - cron: '0 10 * * 0' # Every Sunday at 10AM
   push:
     branches:
       - master
